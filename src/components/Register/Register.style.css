@@ -1,0 +1,47 @@
+.meContainer {
+  max-width: 500px;
+  backdrop-filter: blur(20px);
+  margin: 4rem auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+}
+
+.meInput:focus {
+  outline: none;
+}
+
+.meBtn {
+  padding: 0.5rem 2rem;
+  color: white;
+  background-color: transparent;
+  margin: auto;
+  display: block;
+  border: 1px white solid;
+  border-radius: 3rem;
+  transition: 1s;
+}
+.meBtn:hover {
+  background-color: black;
+}
+
+.meAlert {
+  font-size: 12px;
+  color: red;
+  margin-top: 8px;
+}
+.meSuccess {
+  outline: 2px green solid;
+  color: green;
+}
+.meFail {
+  outline: 2px red solid;
+  color: red;
+}
+.meInput {
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding: 3px 0 3px 10px;
+  border: none;
+}
